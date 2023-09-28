@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muitos campos</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <nav>
+
+    </nav>
+
+    <div id="container">
+        
+        <div id="img-example">
+            <div id="register">
+               <div class="puts">Nome:<p id="put-nome" class="put-info"></p></div>
+                
+               <div class="puts">Email:<p id="put-email" class="put-info"></p></div>
+                
+               <div class="puts">Estado:<p id="put-state" class="put-info"></p></div>
+                
+               <div class="puts">Chave de Segurança:<p id="put-key" class="put-info"></p></div>
+                
+               <div class="puts">Senha:<p id="put-password" class="put-info"></p></div>
+                
+            </div>
+        </div>
+        <form method="get" action="#" id="form">
+            
+            <label for="name-d">Nome: </label><input type="text" placeholder="Digite seu nome" id="name-d" name="name" class="boxs" maxlength="30">
+            <label for="email-d">Email: </label> <input type="text" placeholder="Digite seu email" id="email-d" name="email" class="boxs" maxlength="30">
+            <label for="state-d">Selecione seu Estado: </label>
+                
+                <select name="state" id="state-d">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="es">Espiríto Santo</option> 
+                    <option value="mg">Minas Gerais</option>
+                </select>
+            
+            <label for="key-d">Forneça a chave de Segurança: </label> <input type="text" placeholder="Digite sua chave de segruança" id="key-d" name="key" class="boxs" maxlength="30">
+            <label for="password-d">Senha: </label> <input type="password" placeholder="Digite sua senha" id="password-d" name="password" class="boxs" maxlength="30">
+            <label for="password-d-confirm">Confirme sua senha: </label> <input type="password" placeholder="Digite sua senha Novamente" id="password-d-confirm" name="password-confirm" class="boxs" maxlength="30">
+        
+        </form>
+        <div id="container-btn">
+            <div id="btn-sub" class="btn">Enviar</div>
+            <div id="btn-reset" class="btn">Limpar</div>
+        </div>
+    </div>
+    <h1>Escolha a cor:</h1>
+    <div id="container-choosing" >
+        <div id="choose-color-one" class="choose" ></div>
+        <div id="choose-color-two" class="choose" ></div>
+        <div id="choose-color-three" class="choose" ></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

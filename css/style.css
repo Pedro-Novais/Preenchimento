@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.582);
+}
+body #container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: solid 2px;
+  border-radius: 10px;
+  width: 50%;
+  height: 50vh;
+  margin-top: 20vh;
+  background-color: rgba(99, 214, 99, 0.769);
+  box-shadow: 0 0 3rem black;
+  transition: 1s;
+}
+body #container #img-example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  border-radius: 10px;
+  width: 35%;
+  height: 85%;
+  margin: 2vw;
+  background-color: rgba(33, 204, 33, 0.767);
+  box-shadow: 0 0 0.5rem black;
+  transition: 1s;
+}
+body #container #img-example #register {
+  width: 95%;
+  height: 95%;
+}
+body #container #img-example #register .puts {
+  width: 95%;
+  margin-top: 1.2rem;
+  font-weight: bold;
+  font-size: 0.7vw;
+}
+body #container #img-example #register .puts .put-info {
+  border-bottom: solid 2px;
+  font-size: 0.6vw;
+}
+body #container #img-example #register #put-state {
+  text-transform: uppercase;
+}
+body #container #form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: solid 2px;
+  border-radius: 10px;
+  width: 60%;
+  height: 85%;
+  margin: 2rem;
+  padding: 1rem 0rem 0 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  background-color: rgba(33, 204, 33, 0.767);
+  box-shadow: 0 0 0.5rem black;
+  transition: 1s;
+}
+body #container #form label {
+  margin-left: 0.5vw;
+  margin-top: 0.2vw;
+  font-size: 0.7vw;
+}
+body #container #form select {
+  margin-left: 0.5rem;
+  border-radius: 10px;
+}
+body #container #form .boxs {
+  margin: 0rem 0rem 0rem 0.5rem;
+  padding: 0.5rem;
+  border-style: none;
+  outline: 0;
+  border-bottom: solid 2px #ffffff;
+  border-radius: 10px;
+  width: 70%;
+  height: 8%;
+  font-size: 15px;
+}
+body #container #container-btn {
+  align-self: center;
+}
+body #container #container-btn .btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 4vw;
+  height: 2vw;
+  margin: 1vw 1vw 0 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.6vw;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+  background-color: rgba(33, 204, 33, 0.767);
+  box-shadow: 0 0.1vw 0.2vw black;
+  cursor: pointer;
+  transition: 0.5s;
+}
+body #container #container-btn #btn-sub:hover {
+  transition: 0.2s;
+  background-color: rgba(0, 255, 0, 0.767);
+}
+body #container #container-btn #btn-reset {
+  background-color: rgb(173, 84, 84);
+  transition: 0.2s;
+}
+body #container #container-btn #btn-reset:hover {
+  transition: 0.2s;
+  background-color: rgba(204, 30, 30, 0.918);
+}
+body h1 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+body #container-choosing {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1.5rem;
+}
+body #container-choosing .choose {
+  text-align: center;
+  margin: 0 2rem 0 2rem;
+  border: solid 2px;
+  width: 1.5vw;
+  height: 3.5vh;
+  border-radius: 100rem;
+  cursor: pointer;
+}
+body #container-choosing #choose-color-one {
+  background-color: rgb(0, 253, 253);
+}
+body #container-choosing #choose-color-two {
+  background-color: rgb(97, 21, 158);
+}
+body #container-choosing #choose-color-three {
+  background-color: rgba(33, 204, 33, 0.767);
+}/*# sourceMappingURL=style.css.map */
